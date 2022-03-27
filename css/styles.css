@@ -407,9 +407,10 @@ button {
 
 .footer-link:last-child {
   margin-bottom: 0;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
   padding-top: 60px; /* Временный костыль */
-  margin-bottom: 20px;
+  margin-bottom: 20px; /* Временный костыль */
 }
