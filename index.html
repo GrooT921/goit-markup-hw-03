@@ -16,7 +16,7 @@
 
     <!-- Шапка страницы -->
 
-    <header class="head">
+    <header class="header">
 
         <div class="container">
 
@@ -52,50 +52,46 @@
 
     <main>
 
-                <section class="section">
+                <section class="hero">
 
-                    <div class="item">
-            
                         <div class="container">
 
                             <h1 class="headline">Эффективные решения для вашего бизнеса</h1>
                             <button type="button" class="item-buttons">Заказать услугу</button>
 
                         </div>
-                    </div>
 
                 </section>
 
                 <!-- Особенности -->
         
                 <section class="section">
-                    <div class="peculiarities">
-
+                    
                         <div class="container">
 
-                            <h2>Особенности</h2>
+                            <h2 class="visually-hidden">Особенности</h2>
                             <!--Заголовок которого нет в разметке-->
                             
                             <ul class="list">
-                                <li>
+                                <li class="list-item">
                                     <h3 class="peculiarities-head">Внимание к деталям</h3>
                                     <p class="peculiarities-text">Идейные соображения, а также начало повседневной работы по формированию позиции.
                                     </p>
                                 </li>
                             
-                                <li>
+                                <li class="list-item">
                                     <h3 class="peculiarities-head">Пунктуальность</h3>
                                     <p class="peculiarities-text">Задача организации, в особенности же рамки и место обучения кадров влечет за
                                         собой.</p>
                                 </li>
                             
-                                <li>
+                                <li class="list-item">
                                     <h3 class="peculiarities-head">Планирование</h3>
                                     <p class="peculiarities-text">Равным образом консультация с широким активом в значительной степени
                                         обуславливает.</p>
                                 </li>
                             
-                                <li>
+                                <li class="list-item">
                                     <h3 class="peculiarities-head">Современные технологии</h3>
                                     <p class="peculiarities-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                                 </li>
@@ -103,15 +99,11 @@
 
                         </div>
 
-                    </div>
-
                 </section>
 
                 <!-- Чем мы занимаемся -->
 
-                <section class="section">
-
-                    <div class="work">
+                <section class="section work">
 
                         <div class="container">
 
@@ -131,15 +123,12 @@
                             </ul>
 
                         </div>
-                    </div>
 
                 </section>
 
                 <!-- Наша команда -->
 
-                <section class="section">
-
-                    <div class="team">
+                <section class="section team">
 
                         <div class="container">
 
@@ -148,32 +137,39 @@
                             <ul class="team-container">
 
                                 <li class="team-list">
-                                <img src="img/igor.png" alt="Игорь Демьяненко" width="270" />
-                                <h3 class="team-name">Игорь Демьяненко</h3>
-                                <p class="team-text">Product Designer</p>
+                                    <img src="img/igor.png" alt="Игорь Демьяненко" width="270" />
+                                    <div class="item-team">
+                                        <h3 class="team-name">Игорь Демьяненко</h3>
+                                        <p class="team-text">Product Designe </p>
+                                    </div>
                                 </li>
 
                                 <li class="team-list">
-                                <img src="img/olga.png" alt="Ольга Репина" width="270" />
-                                <h3 class="team-name">Ольга Репина</h3>
-                                <p class="team-text">Frontend Developer</p>
+                                    <img src="img/olga.png" alt="Ольга Репина" width="270" />
+                                    <div class="item-team">
+                                        <h3 class="team-name">Ольга Репина</h3>
+                                        <p class="team-text">Frontend Develope</p>
+                                    </div>
                                 </li>
 
                                 <li class="team-list">
-                                <img src="img/nikola.png" alt="Николай Тарасов" width="270" />
-                                <h3 class="team-name">Николай Тарасов</h3>
-                                <p class="team-text">Marketing</p>
+                                    <img src="img/nikola.png" alt="Николай Тарасов" width="270" />
+                                    <div class="item-team">
+                                        <h3 class="team-name">Николай Тарасов</h3>
+                                        <p class="team-text">Marketin</p>
+                                    </div>
                                 </li>
                                 
                                 <li class="team-list">
-                                <img src="img/miha.png" alt="Михаил Ермаков" width="270" />
-                                <h3 class="team-name">Михаил Ермаков</h3>
-                                <p class="team-text">UI Designer</p>
+                                    <img src="img/miha.png" alt="Михаил Ермаков" width="270" />
+                                    <div class="item-team">
+                                        <h3 class="team-name">Михаил Ермаков</h3>
+                                        <p class="team-text">UI Designe</p>
+                                    </div>
                                 </li>
                             </ul>
 
                         </div>
-                    </div>
  
                 </section>
 
@@ -189,9 +185,9 @@
 
                 <ul class="footer-list">
                 
-                    <li class="footer-link"><a href="https://goo.gl/maps/mb2MzYeSatuCZ7m78" class="link-contacts"> г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="footer-link"><a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a></li>
-                    <li class="footer-link"><a href="tel:+380961111111" class="link-contacts">+38 096 111 11 11</a></li>
+                    <li class="footer-link"><a href="https://goo.gl/maps/mb2MzYeSatuCZ7m78" class="link-footer"> г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="footer-link"><a href="mailto:info@devstudio.com" class="footer-contacts">info@devstudio.com</a></li>
+                    <li class="footer-link"><a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a></li>
 
                 </ul>
             
