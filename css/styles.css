@@ -442,7 +442,8 @@ a {
   margin-bottom: 20px;
 }
 
-.footer-contacts {
+.footer-contacts,
+.link-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -462,6 +463,5 @@ a {
 }
 
 .link-footer {
-  font-style: normal;
   color: var(--button-color-text);
 }
